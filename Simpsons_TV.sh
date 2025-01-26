@@ -110,3 +110,4 @@ trap exit_simpsons_TV EXIT
 
 # Lancer la fonction principale                                                 
 start_vlc
+
