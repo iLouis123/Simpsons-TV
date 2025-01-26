@@ -15,8 +15,8 @@
 #find /home/ilouis/Simpsons -type f ! -name '.*' -name '*.mp4' |   sort -t '.' -k2,2n -k3,3n > Simpsons/simpsons.m3u
 
 # Chemins vers la playlist et le fichier de sauvegarde de l'état                
-PLAYLIST_PATH="/home/ilouis/Simpsons/simpsons.m3u"
-SAVE_STATE_FILE="/home/ilouis/Simpsons/state.txt"
+PLAYLIST_PATH="Simpsons/simpsons.m3u"
+SAVE_STATE_FILE="Simpsons/state.txt"
 VLC_HOST="localhost"
 VLC_PORT=4212
 OUTPUT_VIDEO="intro_resume.mp4"
